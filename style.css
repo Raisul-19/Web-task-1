@@ -1,0 +1,27 @@
+.sites{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+    padding: 120px;
+    background-color: rgb(73, 72, 72);
+}
+.facebook{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+}
+.icon{
+    margin-top: 22px;
+}
+
+a h3{
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+}
+
