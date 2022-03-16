@@ -1,12 +1,30 @@
 .sites{
-
-    display: flex;
     justify-content: space-between;
-    margin: 120px;
-    padding: 120px;
+    margin:50px 160px;
+    padding: 80px;
+    padding-top: 30px;
     background-color: rgb(73, 72, 72);
 }
-.facebook{
+.sites h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #fff;
+    opacity: 0.7;
+   
+}
+.sites h3{
+    opacity: 0.7;
+}
+.site-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.site-2{
+    display: flex;
+    justify-content: space-between;
+}
+.icons-div{
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -24,4 +42,31 @@ a h3{
     text-decoration: none;
     color: rgb(97, 96, 96);
 }
+.facebook:hover{
+    border: 10px solid rgb(14, 110, 106);
+}
+
+.twitter:hover{
+    border: 10px solid rgb(6, 151, 248);
+}
+.instagram:hover{
+    border: 10px solid rgb(241, 79, 79);
+}
+.linkedin:hover{
+    border: 10px solid rgb(75, 109, 223);
+}
+.whatsapp:hover{
+    border: 10px solid rgb(5, 179, 14);
+}
+.google-plus:hover{
+    border: 10px solid rgb(255, 49, 49);
+}
+.reddit:hover{
+    border: 10px solid rgb(248, 135, 6);
+}
+.quora:hover{
+    border: 10px solid rgb(248, 6, 6);
+}
+
+
 
